@@ -18,3 +18,6 @@ primary.reverse();
 console.log(primary);
 console.log(primary.reverse());
 
+console.log(primary.concat(secondary).reverse());
+
+
