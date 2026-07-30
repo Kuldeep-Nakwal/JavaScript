@@ -25,8 +25,24 @@ let fruits = ["mango", "apple", "guauva"];
 fruits.unshift("grapes");
 console.log(fruits);
 
-fruits.shift();
+let removed = fruits.shift();
 console.log(fruits);
+console.log(removed);
+
+
+// ********************************** Exercise **********************************
+
+let months = ["january", "july", "march", "august"];
+
+// final array should be like this: ["july", "june", "march", "august"];
+
+months.shift();
+months.shift();
+months.unshift("june");
+months.unshift("july");
+
+console.log(months);
+
 
 
 
