@@ -4,19 +4,33 @@
 
 let cars = ["Maruti", "Hyundai", "Honda"];
 
-cars.push("Toyota");
+// cars.push("Toyota");
 
-console.log(cars);
+// console.log(cars);
 
-console.log(cars.length);
+// console.log(cars.length);
 
-console.log(cars.push("BMW"));
+// console.log(cars.push("BMW"));
 
-console.log(cars);
+// console.log(cars);
 
-cars.pop();
+// cars.pop();
 
-console.log(cars);
+// console.log(cars);
+
+// ************************************ SHIFT UNSHIFT ***************************************
+
+let fruits = ["mango", "apple", "guauva"];
+
+fruits.unshift("grapes");
+console.log(fruits);
+
+fruits.shift();
+console.log(fruits);
+
+
+
+
 
 
 
